@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #341f47; /* Fondo claro */
+}
+
+h1 {
+  color: #ba82fa;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center; /* Texto centrado */
+}
+
+/* Estilos para la sección de bienvenida */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #311b53; /* Fondo blanco */
+  border: 1px solid #793db1; /* Borde gris claro */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.welcome-section div {
+  flex: 1;
+}
+
+.welcome-section p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para la imagen de Kuromi */
+.kuromi-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px;
+  background-color: #fff; /* Fondo blanco */
+  padding: 10px; /* Espacio entre la imagen y el borde */
+  border: 1px solid #ddd; /* Borde gris claro */
+}
+
+.kuromi-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

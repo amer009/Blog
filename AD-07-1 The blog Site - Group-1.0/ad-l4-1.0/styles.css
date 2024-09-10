@@ -1,0 +1,174 @@
+/* Global styles */
+body {
+    font-family: 'ABeeZee', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #70344d; /* Fondo claro */
+  }
+  
+  .navbar {
+    background-color: #70344d; /* Same color as the body background */
+    padding: 1em;
+    display: flex;
+    flex-direction: row; /* Make the navbar horizontal */
+    justify-content: center; /* Center the navbar */
+    align-items: center;
+    border: none; /* remove border */
+    box-shadow: none; /* remove box-shadow */
+    width: 100%; /* make the navbar full-width */
+    margin-top: 20px; /* create space between the title and navbar */
+  }
+  
+  .nav-links {
+    display: flex; /* Make the links horizontal */
+    flex-direction: row; /* Make the links horizontal */
+    justify-content: space-between; /* Distribute the links evenly */
+    align-items: center;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #edccf5; /* Letra blanca */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #f77bf7; /* Borde gris claro */
+    border-radius: 10px;
+    background-color: #ec72a5; /* Fondo blanco */
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+    border-color: #555;
+  }
+  
+  .nav-box {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #f77bf7; /* Borde gris claro */
+    border-radius: 10px;
+    background-color: #ec72a5; /* Fondo blanco */
+  }
+  
+  .welcome-header {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #edccf5; /* Letra blanca */
+  }
+  
+  .welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    background-color: #311b53; /* Fondo blanco */
+    border: 1px solid #ad87d1; /* Borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo para que haya espacio en los bordes */
+    margin: 0 auto; /* Centrado horizontal */
+  }
+  
+  .welcome-section p {
+    font-size: 24px; /* Fuente más grande */
+    text-align: justify; /* Texto justificado */
+    margin: 40px; /* Espacio en los bordes de la pantalla */
+    color: #bfa1e6; /* Letra blanca */
+  }
+  
+  .contact-container {
+    background-color: #5e2859; /* change this to your desired background color */;
+    color: #4c255c; /* change this to your desired text color */;
+  }
+  
+  .contact-container.welcome-section {
+    background-color: #5e2859; /* override the dark purple background color */
+  }
+  
+  .kuromi-image {
+    width: 800px;
+    height: 800px;
+    border-radius: 10px; /* Puntas redondeadas */
+    margin: 20px;
+    background-color: #ec72a5; /* Fondo blanco */
+    padding: 10px; /* Espacio entre la imagen y el borde */
+    border: 1px solid #f77bf7; /* Borde gris claro */
+  }
+  
+  .kuromi-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Puntas redondeadas */
+  }
+  
+  /* Add your custom styles here */
+  .contact-container {
+    background-color: #5e2859; /* change this to your desired background color */;
+    color: #4c255c; /* change this to your desired text color */;
+  }
+  
+  .contact-container h1 {
+    color: #00698f; /* change this to your desired heading color */;
+  }
+  
+  .contact-container label {
+    color: #f7f7f7; /* change this to your desired label color */;
+  }
+  
+  .contact-container input[type="text"], 
+  .contact-container input[type="number"], 
+  .contact-container input[type="email"] {
+    background-color: #532f4d; /* change this to your desired input background color */;
+    border: 1px solid #8a3a77; /* change this to your desired input border style */;
+    padding: 10px; /* add some padding to the inputs */
+    border-radius: 5px; /* add some border radius to the inputs */
+  }
+  /* Existing styles */
+
+/* Add new section for About us styles */
+#about-section {
+    /* Add styles for the About us section container here */
+    background-color: #70344d;
+    padding: 40px;
+  }
+  
+  .about-container {
+    /* Add styles for the About us container here */
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #70344d;
+    border: 1px solid #ad87d1;
+    border-radius: 10px;
+  }
+  
+  .about-header {
+    /* Add styles for the About us header here */
+    text-align: center;
+  }
+  
+  .about-content {
+    /* Add styles for the About us content here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-mission, .about-vision, .about-values {
+    /* Add styles for the About us mission, vision, and values sections here */
+    flex-basis: 50%;
+    padding: 20px;
+  }
+
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      bottom: 0;
+      width: 100%;
+  }
